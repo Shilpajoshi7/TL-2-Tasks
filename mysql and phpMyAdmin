@@ -1,0 +1,13 @@
+___________________________How to Install phpMyAdmin on Ubuntu and Access phpMyAdmin on a Browser______________________
+
+sudo apt-get update -y
+sudo apt-get upgrade -y
+curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+sudo apt install nodejs -y
+sudo apt-get install apache2 -y
+sudo apt install php -y
+sudo apt-get install mysql-server -y
+sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl -y
+sudo phpenmod mbstring
+sudo systemctl restart apache2
+sudo mysql -u root -p
