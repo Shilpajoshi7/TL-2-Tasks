@@ -1,5 +1,8 @@
 ___________________________How to Install phpMyAdmin on Ubuntu and Access phpMyAdmin on a Browser______________________
 
+https://www.hostinger.com/tutorials/how-to-install-and-setup-phpmyadmin-on-ubuntu
+
+
 sudo apt-get update -y
 sudo apt-get upgrade -y
 curl -s https://deb.nodesource.com/setup_16.x | sudo bash
