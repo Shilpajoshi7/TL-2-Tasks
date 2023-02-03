@@ -1,4 +1,5 @@
-sudo cd /etc/ssh/sshd_config
-sudo vi sshd_config   ---------------->Port change kar le
-sudo systemctl restrt sshd
+cd /etc/ssh
+sudo vi sshd_config ---------------->Port change kar le uncomment karna matt bhulna
+sudo systemctl restart sshd
+
 ssh username@ipofVM -p portThatIChanged
