@@ -1,0 +1,4 @@
+sudo cd /etc/ssh/sshd_config
+sudo vi sshd_config   ---------------->Port change kar le
+sudo systemctl restrt sshd
+ssh username@ipofVM -p portThatIChanged
